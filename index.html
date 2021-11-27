@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <div id="gas">
+      <div class="gas-info">
+        <div class="gas-info-detail">
+          <span>
+            ガソリン単価(/1L)
+          </span>
+          <p id="gas-unit_price"></p>
+        </div>
+        <div class="gas-info-pricedown-detail">
+          <span>
+            割引価格(/1L)
+          </span>
+          <p id="price-down"></p>
+        </div>
+      </div>
+      <span>給油量(L):</span>
+      <input id="gas-volume" type="number" />
+      <button id="price-button">金額を表示する</button>
+      <p id="total-price"></p>
+      <p id="total-discount-price"></p>
+    </div>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>
